@@ -9,7 +9,7 @@ body {
 .section-2,
 .section-3,
 .section-4 {
-  height: 25vh;
+  height: 225px;
 }
 
 /* Section 1 */
@@ -77,4 +77,30 @@ ul {
   width: 100px;
   border: 1px solid black;
   border-radius: 10px;
+}
+
+/* Section 3 */
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 85%;
+}
+
+.quote-text {
+  font-size: large;
+  font-style: italic;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-size: .90em;
+  font-weight: 600;
 }
